@@ -1,0 +1,462 @@
+{
+  "sport": { "slug": "football", "name": "Football" },
+  "notions": [
+    {
+      "level": 1,
+      "position": 1,
+      "title": "C'est quoi le football ?",
+      "screens": [
+        { "position": 1, "title": "Un jeu de ballon", "body": "Le football, c'est un jeu où deux équipes s'affrontent avec un ballon.", "is_fun_fact": false },
+        { "position": 2, "title": "Le but du jeu", "body": "L'objectif est simple : envoyer le ballon dans le but de l'équipe adverse. Chaque fois qu'on y arrive, on marque un but.", "is_fun_fact": false },
+        { "position": 3, "title": "Les pieds, pas les mains", "body": "On joue avec les pieds, et on peut aussi utiliser la tête ou la poitrine. Mais les mains sont interdites… sauf pour un joueur très spécial, que tu découvriras bientôt.", "is_fun_fact": false },
+        { "position": 4, "title": "Qui gagne ?", "body": "À la fin du match, l'équipe qui a marqué le plus de buts gagne. Si les deux équipes ont marqué autant de buts, c'est un match nul.", "is_fun_fact": false },
+        { "position": 5, "title": "Le savais-tu ?", "body": "Le mot « football » vient de l'anglais : foot veut dire pied, ball veut dire ballon.", "is_fun_fact": true }
+      ],
+      "questions": [
+        {
+          "pair": 1, "variant": "a", "difficulty": 1,
+          "statement": "Combien d'équipes s'affrontent dans un match de football ?",
+          "explanation": "Un match oppose toujours deux équipes, chacune essayant de marquer dans le but de l'autre.",
+          "answers": [
+            { "text": "Une", "correct": false, "why_wrong": "Il faut un adversaire pour jouer un match." },
+            { "text": "Deux", "correct": true },
+            { "text": "Quatre", "correct": false, "why_wrong": "Il n'y a jamais plus de deux équipes sur le terrain en même temps." }
+          ]
+        },
+        {
+          "pair": 1, "variant": "b", "difficulty": 1,
+          "statement": "Sur le terrain, les joueurs portent des maillots de deux couleurs différentes. À quoi ça sert ?",
+          "explanation": "Chaque équipe a sa couleur, pour que les joueurs, l'arbitre et le public sachent tout de suite qui joue avec qui.",
+          "answers": [
+            { "text": "À reconnaître les deux équipes", "correct": true },
+            { "text": "Juste à faire joli", "correct": false, "why_wrong": "La couleur a une vraie utilité : savoir à qui faire une passe." },
+            { "text": "À montrer qui sont les meilleurs joueurs", "correct": false, "why_wrong": "Tous les joueurs d'une même équipe portent la même couleur, quel que soit leur niveau." }
+          ]
+        },
+        {
+          "pair": 2, "variant": "a", "difficulty": 1,
+          "statement": "Quel est l'objectif d'une équipe pendant un match ?",
+          "explanation": "On gagne en marquant des buts, donc en envoyant le ballon dans le but de l'autre équipe.",
+          "answers": [
+            { "text": "Garder le ballon le plus longtemps possible", "correct": false, "why_wrong": "Garder le ballon aide, mais ne fait pas gagner tout seul." },
+            { "text": "Mettre le ballon dans le but adverse", "correct": true },
+            { "text": "Faire le plus de passes possible", "correct": false, "why_wrong": "Les passes servent à approcher du but, elles ne rapportent rien toutes seules." }
+          ]
+        },
+        {
+          "pair": 2, "variant": "b", "difficulty": 1,
+          "statement": "Un joueur envoie le ballon au fond des filets de l'équipe adverse, et ses coéquipiers lèvent les bras de joie. Que vient-il de se passer ?",
+          "explanation": "Le ballon est entré dans le but adverse : c'est un but pour son équipe, d'où la joie.",
+          "answers": [
+            { "text": "Il a marqué un but", "correct": true },
+            { "text": "Il a commis une faute", "correct": false, "why_wrong": "Après une faute, on ne célèbre pas, c'est l'arbitre qui siffle." },
+            { "text": "Le match est terminé", "correct": false, "why_wrong": "Un but ne termine pas le match, le jeu reprend ensuite." }
+          ]
+        },
+        {
+          "pair": 3, "variant": "a", "difficulty": 1,
+          "statement": "Avec quelle partie du corps un joueur n'a-t-il en général pas le droit de toucher le ballon ?",
+          "explanation": "Les mains sont interdites, sauf pour un seul joueur par équipe.",
+          "answers": [
+            { "text": "La tête", "correct": false, "why_wrong": "La tête est autorisée, on peut même marquer de la tête." },
+            { "text": "Le pied", "correct": false, "why_wrong": "Le pied, c'est justement la base du football." },
+            { "text": "La main", "correct": true }
+          ]
+        },
+        {
+          "pair": 3, "variant": "b", "difficulty": 2,
+          "statement": "Un joueur amortit le ballon avec sa poitrine, puis le contrôle du pied. A-t-il le droit ?",
+          "explanation": "On peut utiliser presque tout le corps : pieds, tête, poitrine, cuisses… Seules les mains sont interdites.",
+          "answers": [
+            { "text": "Oui", "correct": true },
+            { "text": "Non, seul le pied est autorisé", "correct": false, "why_wrong": "Le pied est le plus utilisé, mais pas le seul autorisé." },
+            { "text": "Non, il aurait dû utiliser la tête", "correct": false, "why_wrong": "La tête est permise, mais elle n'est pas obligatoire." }
+          ]
+        },
+        {
+          "pair": 4, "variant": "a", "difficulty": 2,
+          "statement": "Le match se termine sur le score de 2 – 2. Que s'est-il passé ?",
+          "explanation": "Quand les deux équipes ont marqué autant de buts, personne ne gagne : c'est un match nul.",
+          "answers": [
+            { "text": "C'est un match nul", "correct": true },
+            { "text": "L'équipe qui jouait à domicile gagne", "correct": false, "why_wrong": "Jouer à domicile ne donne aucun but en plus." },
+            { "text": "Les deux équipes ont perdu", "correct": false, "why_wrong": "Il n'y a pas de perdant quand le score est égal." }
+          ]
+        },
+        {
+          "pair": 4, "variant": "b", "difficulty": 2,
+          "statement": "À la fin du match, aucune équipe n'a marqué : 0 – 0. Quel est le résultat ?",
+          "explanation": "Sans but de part et d'autre, le score est égal : c'est un match nul, un résultat tout à fait normal dans la plupart des matchs. Tu verras plus tard les cas où il faut absolument un vainqueur.",
+          "answers": [
+            { "text": "Un match nul", "correct": true },
+            { "text": "Le match est rejoué le lendemain", "correct": false, "why_wrong": "Un match nul ne se rejoue pas, il compte tel quel." },
+            { "text": "L'équipe qui a eu le plus le ballon gagne", "correct": false, "why_wrong": "Seuls les buts décident du vainqueur." }
+          ]
+        },
+        {
+          "pair": 5, "variant": "a", "difficulty": 2,
+          "statement": "L'équipe verte a eu le ballon presque tout le match, mais n'a marqué aucun but. L'équipe jaune a marqué une fois. Qui gagne ?",
+          "explanation": "Seuls les buts comptent. Avec 1 – 0, l'équipe jaune gagne, même si elle a peu touché le ballon.",
+          "answers": [
+            { "text": "L'équipe verte, car elle a eu le ballon plus longtemps", "correct": false, "why_wrong": "Avoir le ballon ne rapporte rien si on ne marque pas." },
+            { "text": "L'équipe jaune", "correct": true },
+            { "text": "Personne, c'est un match nul", "correct": false, "why_wrong": "Il y a match nul seulement si le score est égal." }
+          ]
+        },
+        {
+          "pair": 5, "variant": "b", "difficulty": 3,
+          "statement": "Les Aigles mènent 1 – 0 à la mi-temps. En seconde période, les Loups marquent 3 buts et les Aigles 1. Qui gagne ?",
+          "explanation": "Seul le score final compte. Les Aigles finissent avec 2 buts, les Loups avec 3 : les Loups gagnent 3 – 2.",
+          "answers": [
+            { "text": "Les Aigles, car ils menaient à la mi-temps", "correct": false, "why_wrong": "Mener à la mi-temps ne garantit rien, le match se joue jusqu'au bout." },
+            { "text": "Les Loups", "correct": true },
+            { "text": "Personne, c'est un match nul", "correct": false, "why_wrong": "3 – 2 n'est pas un score égal." }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "position": 2,
+      "title": "Le terrain",
+      "screens": [
+        { "position": 1, "title": "Un grand rectangle", "body": "Le terrain de foot est un grand rectangle de pelouse, d'environ 105 mètres de long et 68 mètres de large.", "is_fun_fact": false },
+        { "position": 2, "title": "Les lignes", "body": "Les deux longs côtés sont les lignes de touche, les deux petits côtés les lignes de but. Au milieu, la ligne médiane coupe le terrain en deux, avec le rond central au centre.", "is_fun_fact": false },
+        { "position": 3, "title": "Les buts", "body": "Il y a un but à chaque bout du terrain, au milieu de la ligne de but : deux poteaux, une barre en haut appelée barre transversale, et un filet derrière.", "is_fun_fact": false },
+        { "position": 4, "title": "Les surfaces", "body": "Devant chaque but, il y a une grande zone rectangulaire : la surface de réparation. À l'intérieur, une plus petite : la surface de but. Et un point blanc à 11 mètres du but : le point de penalty.", "is_fun_fact": false },
+        { "position": 5, "title": "Le savais-tu ?", "body": "Les terrains n'ont pas tous exactement la même taille : les règles donnent une fourchette, pas une mesure unique.", "is_fun_fact": true }
+      ],
+      "questions": [
+        {
+          "pair": 1, "variant": "a", "difficulty": 1,
+          "statement": "Quelle forme a un terrain de football ?",
+          "explanation": "Le terrain est un rectangle, plus long que large.",
+          "answers": [
+            { "text": "Un rond", "correct": false, "why_wrong": "Le seul rond, c'est le rond central, au milieu du terrain." },
+            { "text": "Un rectangle", "correct": true },
+            { "text": "Un triangle", "correct": false, "why_wrong": "Aucun terrain de football n'est triangulaire." }
+          ]
+        },
+        {
+          "pair": 1, "variant": "b", "difficulty": 2,
+          "statement": "À peu près combien mesure un terrain de foot dans sa longueur ?",
+          "explanation": "Un terrain fait autour de 100 à 110 mètres de long, à peu près la ligne droite d'une course de 100 mètres.",
+          "answers": [
+            { "text": "Environ 20 mètres", "correct": false, "why_wrong": "20 mètres, c'est à peine la profondeur de la zone devant le but." },
+            { "text": "Environ 100 mètres", "correct": true },
+            { "text": "Environ 500 mètres", "correct": false, "why_wrong": "500 mètres, ce serait cinq terrains mis bout à bout." }
+          ]
+        },
+        {
+          "pair": 2, "variant": "a", "difficulty": 1,
+          "statement": "Le ballon sort par l'un des deux longs côtés du terrain. Quelle ligne a-t-il franchie ?",
+          "explanation": "Les longs côtés sont les lignes de touche.",
+          "answers": [
+            { "text": "La ligne de but", "correct": false, "why_wrong": "La ligne de but, ce sont les petits côtés, là où se trouvent les buts." },
+            { "text": "La ligne de touche", "correct": true },
+            { "text": "La ligne médiane", "correct": false, "why_wrong": "La ligne médiane est au milieu du terrain, le ballon ne peut pas « sortir » par là." }
+          ]
+        },
+        {
+          "pair": 2, "variant": "b", "difficulty": 2,
+          "statement": "Le ballon passe à côté du but et sort par le petit côté du terrain. Quelle ligne a-t-il franchie ?",
+          "explanation": "Les petits côtés sont les lignes de but, même quand le ballon passe à côté du but sans y entrer.",
+          "answers": [
+            { "text": "La ligne de but", "correct": true },
+            { "text": "La ligne de touche", "correct": false, "why_wrong": "La ligne de touche, ce sont les longs côtés." },
+            { "text": "La ligne médiane", "correct": false, "why_wrong": "La ligne médiane coupe le terrain en deux, ce n'est pas un bord." }
+          ]
+        },
+        {
+          "pair": 3, "variant": "a", "difficulty": 1,
+          "statement": "Comment s'appelle le cercle dessiné au centre du terrain ?",
+          "explanation": "C'est le rond central, au milieu de la ligne médiane.",
+          "answers": [
+            { "text": "Le rond central", "correct": true },
+            { "text": "Le point de penalty", "correct": false, "why_wrong": "Le point de penalty est devant chaque but, pas au centre." },
+            { "text": "La surface de but", "correct": false, "why_wrong": "La surface de but est un petit rectangle juste devant le but." }
+          ]
+        },
+        {
+          "pair": 3, "variant": "b", "difficulty": 1,
+          "statement": "Quelle ligne partage le terrain en deux moitiés, une pour chaque équipe ?",
+          "explanation": "La ligne médiane traverse le terrain en son milieu et le coupe en deux camps.",
+          "answers": [
+            { "text": "La ligne médiane", "correct": true },
+            { "text": "La ligne de but", "correct": false, "why_wrong": "La ligne de but est au bout du terrain, là où sont les buts." },
+            { "text": "La ligne de touche", "correct": false, "why_wrong": "La ligne de touche longe le terrain sur le côté." }
+          ]
+        },
+        {
+          "pair": 4, "variant": "a", "difficulty": 2,
+          "statement": "Comment s'appelle la barre horizontale en haut du but ?",
+          "explanation": "La barre qui relie le haut des deux poteaux s'appelle la barre transversale.",
+          "answers": [
+            { "text": "La barre transversale", "correct": true },
+            { "text": "Le poteau", "correct": false, "why_wrong": "Les poteaux sont les deux montants verticaux." },
+            { "text": "La ligne de but", "correct": false, "why_wrong": "La ligne de but est tracée au sol." }
+          ]
+        },
+        {
+          "pair": 4, "variant": "b", "difficulty": 2,
+          "statement": "Un tir frappe l'un des montants verticaux du but et rebondit sur le terrain. Qu'a touché le ballon ?",
+          "explanation": "Les deux montants verticaux du but sont les poteaux.",
+          "answers": [
+            { "text": "Le poteau", "correct": true },
+            { "text": "La barre transversale", "correct": false, "why_wrong": "La barre transversale, c'est la barre horizontale en haut." },
+            { "text": "Le filet", "correct": false, "why_wrong": "Le filet est derrière le but ; un ballon qui le touche par l'intérieur est en général rentré." }
+          ]
+        },
+        {
+          "pair": 5, "variant": "a", "difficulty": 2,
+          "statement": "Comment s'appelle la grande zone rectangulaire dessinée devant chaque but ?",
+          "explanation": "C'est la surface de réparation. On la retrouvera souvent, notamment pour le gardien et le penalty.",
+          "answers": [
+            { "text": "La ligne médiane", "correct": false, "why_wrong": "La ligne médiane coupe le terrain en deux." },
+            { "text": "La surface de réparation", "correct": true },
+            { "text": "Le rond central", "correct": false, "why_wrong": "Le rond central est au milieu du terrain." }
+          ]
+        },
+        {
+          "pair": 5, "variant": "b", "difficulty": 3,
+          "statement": "À quelle distance du but se trouve le point de penalty ?",
+          "explanation": "Le point de penalty est à 11 mètres de la ligne de but, bien centré face au but.",
+          "answers": [
+            { "text": "5 mètres", "correct": false, "why_wrong": "5 mètres, c'est à peu près la profondeur de la petite surface de but." },
+            { "text": "11 mètres", "correct": true },
+            { "text": "25 mètres", "correct": false, "why_wrong": "25 mètres, c'est bien plus loin que la surface de réparation." }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "position": 3,
+      "title": "Les joueurs",
+      "screens": [
+        { "position": 1, "title": "Onze contre onze", "body": "Chaque équipe a 11 joueurs sur le terrain.", "is_fun_fact": false },
+        { "position": 2, "title": "Le gardien", "body": "Voilà le joueur très spécial ! Il protège le but, et c'est le seul qui peut prendre le ballon avec les mains, mais uniquement dans sa surface de réparation. Il porte un maillot différent de ses coéquipiers, pour qu'on le distingue facilement.", "is_fun_fact": false },
+        { "position": 3, "title": "Les défenseurs", "body": "Placés devant le gardien, ils empêchent les adversaires d'approcher du but.", "is_fun_fact": false },
+        { "position": 4, "title": "Les milieux et les attaquants", "body": "Les milieux jouent au centre et font le lien entre la défense et l'attaque. Les attaquants jouent devant et cherchent à marquer.", "is_fun_fact": false },
+        { "position": 5, "title": "Le savais-tu ?", "body": "Dans chaque équipe, un joueur porte un brassard autour du bras : c'est le capitaine.", "is_fun_fact": true }
+      ],
+      "questions": [
+        {
+          "pair": 1, "variant": "a", "difficulty": 1,
+          "statement": "Combien de joueurs une équipe a-t-elle sur le terrain ?",
+          "explanation": "Chaque équipe joue avec 11 joueurs, gardien compris.",
+          "answers": [
+            { "text": "9", "correct": false, "why_wrong": "9 joueurs, c'est trop peu pour un match officiel." },
+            { "text": "11", "correct": true },
+            { "text": "15", "correct": false, "why_wrong": "15 joueurs, c'est le rugby, pas le football." }
+          ]
+        },
+        {
+          "pair": 1, "variant": "b", "difficulty": 2,
+          "statement": "Au coup d'envoi, combien de joueurs y a-t-il sur le terrain au total, en comptant les deux équipes ?",
+          "explanation": "11 joueurs dans chaque équipe, donc 22 joueurs sur le terrain (sans compter les arbitres).",
+          "answers": [
+            { "text": "11", "correct": false, "why_wrong": "11, c'est le nombre de joueurs d'une seule équipe." },
+            { "text": "22", "correct": true },
+            { "text": "18", "correct": false, "why_wrong": "18 correspondrait à 9 joueurs par équipe, ce n'est pas le football à 11." }
+          ]
+        },
+        {
+          "pair": 2, "variant": "a", "difficulty": 1,
+          "statement": "Quel joueur a le droit de prendre le ballon avec les mains ?",
+          "explanation": "Seul le gardien peut utiliser ses mains, pour protéger son but.",
+          "answers": [
+            { "text": "L'attaquant", "correct": false, "why_wrong": "L'attaquant doit jouer avec les pieds, comme tous les joueurs de champ." },
+            { "text": "Le capitaine", "correct": false, "why_wrong": "Le capitaine porte un brassard, mais il n'a aucun droit spécial sur le ballon." },
+            { "text": "Le gardien", "correct": true }
+          ]
+        },
+        {
+          "pair": 2, "variant": "b", "difficulty": 1,
+          "statement": "Comment repère-t-on le gardien au premier coup d'œil ?",
+          "explanation": "Le gardien porte une tenue d'une autre couleur que le reste de son équipe, pour qu'on le distingue facilement.",
+          "answers": [
+            { "text": "Il porte un maillot différent de ses coéquipiers", "correct": true },
+            { "text": "Il porte un brassard au bras", "correct": false, "why_wrong": "Le brassard, c'est le signe du capitaine." },
+            { "text": "C'est toujours le plus grand joueur", "correct": false, "why_wrong": "Les gardiens sont souvent grands, mais ce n'est pas une règle." }
+          ]
+        },
+        {
+          "pair": 3, "variant": "a", "difficulty": 3,
+          "statement": "Où le gardien a-t-il le droit d'utiliser ses mains ?",
+          "explanation": "Le gardien peut prendre le ballon à la main uniquement dans sa propre surface de réparation. En dehors, il joue avec les pieds comme les autres.",
+          "answers": [
+            { "text": "Partout sur le terrain", "correct": false, "why_wrong": "Hors de sa surface, il redevient un joueur comme les autres." },
+            { "text": "Seulement dans sa surface de réparation", "correct": true },
+            { "text": "Seulement dans le rond central", "correct": false, "why_wrong": "Le rond central est loin de son but, il n'y a aucune raison d'y utiliser les mains." }
+          ]
+        },
+        {
+          "pair": 3, "variant": "b", "difficulty": 3,
+          "statement": "Le gardien sort loin de son but, hors de sa surface, et attrape le ballon à la main. A-t-il le droit ?",
+          "explanation": "Le droit d'utiliser les mains s'arrête aux limites de sa surface de réparation. En dehors, c'est une faute.",
+          "answers": [
+            { "text": "Oui, c'est le gardien", "correct": false, "why_wrong": "Être gardien ne suffit pas, il faut aussi être dans sa surface." },
+            { "text": "Non, hors de sa surface il n'a pas le droit", "correct": true },
+            { "text": "Oui, s'il est aussi capitaine", "correct": false, "why_wrong": "Le brassard de capitaine ne donne aucun droit spécial." }
+          ]
+        },
+        {
+          "pair": 4, "variant": "a", "difficulty": 2,
+          "statement": "Quel est le rôle principal d'un défenseur ?",
+          "explanation": "Le défenseur protège son camp et gêne les attaquants adverses.",
+          "answers": [
+            { "text": "Empêcher l'équipe adverse de marquer", "correct": true },
+            { "text": "Marquer le plus de buts possible", "correct": false, "why_wrong": "Marquer, c'est surtout le rôle des attaquants, même si un défenseur peut parfois marquer." },
+            { "text": "Surveiller le temps de jeu", "correct": false, "why_wrong": "Le temps, c'est l'arbitre qui s'en occupe." }
+          ]
+        },
+        {
+          "pair": 4, "variant": "b", "difficulty": 2,
+          "statement": "Un attaquant adverse fonce vers le but. Quels joueurs, placés juste devant le gardien, essaient de l'arrêter avant qu'il puisse tirer ?",
+          "explanation": "Les défenseurs forment la dernière ligne devant le gardien et tentent de récupérer le ballon.",
+          "answers": [
+            { "text": "Les défenseurs", "correct": true },
+            { "text": "Les attaquants de l'équipe", "correct": false, "why_wrong": "Les attaquants jouent loin devant, près du but adverse." },
+            { "text": "Les arbitres", "correct": false, "why_wrong": "Les arbitres font respecter les règles, ils ne jouent pas." }
+          ]
+        },
+        {
+          "pair": 5, "variant": "a", "difficulty": 2,
+          "statement": "Quel joueur se place entre la défense et l'attaque, et fait le lien entre les deux ?",
+          "explanation": "Le milieu de terrain récupère le ballon et le fait avancer vers les attaquants.",
+          "answers": [
+            { "text": "Le milieu", "correct": true },
+            { "text": "Le gardien", "correct": false, "why_wrong": "Le gardien reste devant son but." },
+            { "text": "L'attaquant", "correct": false, "why_wrong": "L'attaquant joue le plus près du but adverse." }
+          ]
+        },
+        {
+          "pair": 5, "variant": "b", "difficulty": 2,
+          "statement": "Quel joueur est placé le plus près du but adverse, avec pour mission principale de marquer ?",
+          "explanation": "L'attaquant joue tout devant et cherche à transformer les ballons en buts.",
+          "answers": [
+            { "text": "L'attaquant", "correct": true },
+            { "text": "Le défenseur", "correct": false, "why_wrong": "Le défenseur reste près de son propre but." },
+            { "text": "Le milieu", "correct": false, "why_wrong": "Le milieu joue au centre, entre la défense et l'attaque." }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "position": 4,
+      "title": "La durée du match",
+      "screens": [
+        { "position": 1, "title": "90 minutes", "body": "Un match dure 90 minutes, découpées en deux périodes de 45 minutes.", "is_fun_fact": false },
+        { "position": 2, "title": "La mi-temps", "body": "Entre les deux périodes, il y a une pause d'environ 15 minutes : la mi-temps. Après, les équipes changent de côté du terrain et de but. C'est pour ça qu'au tout début du match, un pile ou face décide de quel côté chaque équipe commence.", "is_fun_fact": false },
+        { "position": 3, "title": "Le temps additionnel", "body": "Quand le jeu est arrêté (un joueur blessé, un remplacement…), l'arbitre ajoute quelques minutes à la fin de chaque période pour rattraper ce temps perdu.", "is_fun_fact": false },
+        { "position": 4, "title": "Les remplacements", "body": "Pendant le match, l'entraîneur peut remplacer des joueurs, en général 5 au maximum. Un joueur qui sort ne peut plus revenir.", "is_fun_fact": false },
+        { "position": 5, "title": "Début et fin", "body": "Le match commence par le coup d'envoi, au rond central, et se termine au coup de sifflet final de l'arbitre.", "is_fun_fact": false },
+        { "position": 6, "title": "Le savais-tu ?", "body": "Au football, le chronomètre ne s'arrête jamais pendant le jeu, contrairement au basket. C'est pour ça qu'on ajoute du temps additionnel.", "is_fun_fact": true }
+      ],
+      "questions": [
+        {
+          "pair": 1, "variant": "a", "difficulty": 1,
+          "statement": "Combien de temps dure un match, sans compter le temps additionnel ?",
+          "explanation": "Un match dure 90 minutes : deux périodes de 45 minutes.",
+          "answers": [
+            { "text": "60 minutes", "correct": false, "why_wrong": "60 minutes, c'est trop court pour un match officiel." },
+            { "text": "90 minutes", "correct": true },
+            { "text": "120 minutes", "correct": false, "why_wrong": "120 minutes, ça peut arriver dans certains matchs avec des prolongations, mais tu découvriras ça plus tard." }
+          ]
+        },
+        {
+          "pair": 1, "variant": "b", "difficulty": 1,
+          "statement": "Combien de temps dure une seule période de jeu ?",
+          "explanation": "Le match est coupé en deux périodes de 45 minutes chacune.",
+          "answers": [
+            { "text": "30 minutes", "correct": false, "why_wrong": "30 minutes, c'est trop court." },
+            { "text": "45 minutes", "correct": true },
+            { "text": "90 minutes", "correct": false, "why_wrong": "90 minutes, c'est la durée du match entier, pas d'une seule période." }
+          ]
+        },
+        {
+          "pair": 2, "variant": "a", "difficulty": 1,
+          "statement": "Comment s'appelle la pause au milieu du match ?",
+          "explanation": "La mi-temps est la pause entre les deux périodes de 45 minutes.",
+          "answers": [
+            { "text": "La mi-temps", "correct": true },
+            { "text": "Le temps mort", "correct": false, "why_wrong": "Le temps mort existe au basket ou au handball, pas au football." },
+            { "text": "La prolongation", "correct": false, "why_wrong": "Une prolongation, c'est du temps de jeu en plus, pas une pause." }
+          ]
+        },
+        {
+          "pair": 2, "variant": "b", "difficulty": 2,
+          "statement": "Au retour de la pause, qu'est-ce qui change pour les deux équipes ?",
+          "explanation": "Après la mi-temps, chaque équipe attaque l'autre but, pour que personne ne soit avantagé par le vent ou le soleil.",
+          "answers": [
+            { "text": "Elles changent de côté du terrain", "correct": true },
+            { "text": "Elles changent de maillot", "correct": false, "why_wrong": "Les équipes gardent les mêmes couleurs tout le match." },
+            { "text": "Le score repart de zéro", "correct": false, "why_wrong": "Le score continue, les buts de la première période comptent." }
+          ]
+        },
+        {
+          "pair": 3, "variant": "a", "difficulty": 2,
+          "statement": "À la fin de la première période, l'arbitre ajoute 3 minutes. Pourquoi ?",
+          "explanation": "Le temps additionnel compense les minutes perdues (blessures, remplacements…).",
+          "answers": [
+            { "text": "Pour rattraper le temps perdu pendant les arrêts de jeu", "correct": true },
+            { "text": "Parce qu'une équipe l'a demandé", "correct": false, "why_wrong": "Les équipes ne peuvent pas demander du temps en plus." },
+            { "text": "Pour laisser à l'équipe qui perd une chance de marquer", "correct": false, "why_wrong": "Le temps ajouté ne dépend pas du score, il vaut pour les deux équipes." }
+          ]
+        },
+        {
+          "pair": 3, "variant": "b", "difficulty": 2,
+          "statement": "À la 90e minute, un panneau lumineux affiche « +6 » au bord du terrain. Que signifie ce chiffre ?",
+          "explanation": "Le panneau annonce le temps additionnel : environ 6 minutes seront ajoutées avant la fin.",
+          "answers": [
+            { "text": "On va jouer environ 6 minutes de plus", "correct": true },
+            { "text": "Une équipe a 6 buts d'avance", "correct": false, "why_wrong": "Le score s'affiche sur le tableau d'affichage, pas sur ce panneau." },
+            { "text": "Il reste 6 remplacements possibles", "correct": false, "why_wrong": "Les remplacements n'ont rien à voir avec ce chiffre." }
+          ]
+        },
+        {
+          "pair": 4, "variant": "a", "difficulty": 2,
+          "statement": "Un joueur vient d'être remplacé. Peut-il revenir sur le terrain plus tard dans le match ?",
+          "explanation": "Au football, un joueur qui sort est définitivement remplacé pour le reste du match.",
+          "answers": [
+            { "text": "Oui, à tout moment", "correct": false, "why_wrong": "Les allers-retours existent au basket ou au handball, pas au football." },
+            { "text": "Non, il ne peut plus revenir", "correct": true },
+            { "text": "Oui, mais seulement après la mi-temps", "correct": false, "why_wrong": "La mi-temps ne change rien, un joueur sorti reste sorti." }
+          ]
+        },
+        {
+          "pair": 4, "variant": "b", "difficulty": 2,
+          "statement": "Combien de remplacements une équipe peut-elle faire, en général, pendant un match ?",
+          "explanation": "Dans la plupart des compétitions, une équipe peut faire jusqu'à 5 remplacements.",
+          "answers": [
+            { "text": "1", "correct": false, "why_wrong": "Un seul, ce serait très peu pour tout un match." },
+            { "text": "5", "correct": true },
+            { "text": "Autant qu'elle veut", "correct": false, "why_wrong": "Les changements illimités existent au basket, pas au football." }
+          ]
+        },
+        {
+          "pair": 5, "variant": "a", "difficulty": 1,
+          "statement": "Qu'est-ce qui marque la fin du match ?",
+          "explanation": "C'est l'arbitre qui décide de la fin du match, par un coup de sifflet, une fois le temps de jeu et le temps additionnel écoulés.",
+          "answers": [
+            { "text": "Le coup de sifflet final de l'arbitre", "correct": true },
+            { "text": "Le ballon qui sort du terrain", "correct": false, "why_wrong": "Quand le ballon sort, le jeu reprend simplement." },
+            { "text": "Le moment où une équipe marque", "correct": false, "why_wrong": "Après un but, le match continue." }
+          ]
+        },
+        {
+          "pair": 5, "variant": "b", "difficulty": 1,
+          "statement": "Comment s'appelle l'action qui lance le match ?",
+          "explanation": "Le match démarre par le coup d'envoi, donné au centre du terrain.",
+          "answers": [
+            { "text": "Le coup d'envoi", "correct": true },
+            { "text": "Le penalty", "correct": false, "why_wrong": "Le penalty est une action de jeu particulière, tu la découvriras dans une prochaine notion." },
+            { "text": "Le corner", "correct": false, "why_wrong": "Le corner aussi arrive en cours de match, pas au début." }
+          ]
+        }
+      ]
+    }
+  ]
+}
