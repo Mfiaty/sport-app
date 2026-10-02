@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from app.routers import notions
+
 app = FastAPI(
     title="Sport App API",
     version="0.1.0",
@@ -14,6 +16,8 @@ app.add_middleware(
     allow_methods=["GET", "POST", "PUT", "DELETE"],
     allow_headers=["*"],
 )
+
+app.include_router(notions.router)
 
 
 @app.get("/health")
