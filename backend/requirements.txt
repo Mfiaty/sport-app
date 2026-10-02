@@ -4,3 +4,6 @@ sqlalchemy
 pg8000
 alembic
 pydantic-settings
+pyjwt
+email-validator
+python-multipart
